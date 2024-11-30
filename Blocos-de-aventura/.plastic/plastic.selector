@@ -1,0 +1,4 @@
+repository "Blocos-de-aventura@joeltorcato@cloud"
+  path "/"
+    br "/main"
+    co "/main"
