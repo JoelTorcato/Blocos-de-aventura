@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void movimentarBola() {
         teclasApertadas = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")); // Obtém a direção do movimento com base nas teclas pressionadas
-        rb2D.velocity = teclasApertadas * velocidadeDaBola; // Define a velocidade da bola com base nas teclas e velocidade.
+        rb2D.velocity = teclasApertadas.normalized * velocidadeDaBola; // Define a velocidade da bola com base nas teclas e velocidade
 
     }
 }
