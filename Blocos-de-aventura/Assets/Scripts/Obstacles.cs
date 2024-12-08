@@ -19,6 +19,6 @@ public class NewBehaviourScript : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other)
     {
         Debug.Log("Game over!"); // Envia uma mensagem para o console
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Recarrega a cena atual no Unity
     }
 }
