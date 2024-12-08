@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("O jogo começou!"); // Exibe uma mensagem no console quando o jogo começa
+        Debug.Log("The game started!"); // Exibe uma mensagem no console quando o jogo começa
     }
 
     // Update is called once per frame
